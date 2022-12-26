@@ -82,15 +82,6 @@ const handleSubmit = async(e) => {
 
   loader(messageDiv);
 
-  
-// call handleSubmit upon user submit the message
-form.addEventListener('submit', handleSubmit);
-form.addEventListener('keyup', (e) => {
-  if (e.keyCode === 13)
-    handleSubmit(e);
-  
-  
-  
 
   // fetch data from server (bots response)
   const response = await fetch('https://chatgptclone.onrender.com/', {
@@ -124,4 +115,9 @@ form.addEventListener('keyup', (e) => {
 }
 
 
+// call handleSubmit upon user submit the message
+form.addEventListener('submit', handleSubmit);
+form.addEventListener('keyup', (e) => {
+  if (e.keyCode === 13)
+    handleSubmit(e);
 })
