@@ -1,7 +1,8 @@
-# ChatGPTClone
+# Chat.AI.BusinessHustle
+
 An AI-based web application that uses advanced GPT3 model API and works like ChatGPT by OpenAI. 
 
-Available at: https://chat-gpt-clone-ebsmtmp3r-msadiq10.vercel.app/
+Available at: https://chat-businesshustle.vercel.app
 
 ## Technologies used
 - HTML
@@ -11,5 +12,4 @@ Available at: https://chat-gpt-clone-ebsmtmp3r-msadiq10.vercel.app/
 - NodeJS
 - OpenAI
 
-
-Referred the following tutorial: https://www.youtube.com/watch?v=2FeymQoKvrk
+www.businesshustle.co.za
